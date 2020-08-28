@@ -1,7 +1,5 @@
-
 /*
 QN
-
 This tutorial is about strings in pig Latin form. The following are the rules for doing so:
 • Program prompts user to input a string
 − Then outputs the string in the pig Latin form
@@ -31,28 +29,7 @@ the string "-way"
 • The first character of str is a vowel 
 • All characters of str are processed, in which case str does not contain any
 vowels
-
-
-
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -241,8 +218,6 @@ string stringBreaker(string long_string)
 
 int main()
 {
-    // string arr =  stringBreaker("THIA is a test string okay");
-
     string string_input;
     cout << "ENTER A STRING THAT YOU WANT TO OUTPUT IN PIG LATIN FORM" << endl;
 
@@ -257,4 +232,3 @@ int main()
     return 0;
 }
 
-}*/
